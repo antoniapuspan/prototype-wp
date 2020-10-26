@@ -32,3 +32,10 @@ function showBike(bike) {
 	
 	document.querySelector("main").appendChild(copy);
 }
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -14,6 +16,15 @@ body {
 	margin: 0;
 	background-color: #F2EFEB;
 
+}
+h1 {
+	font-family: signika;
+}
+h3 {
+	font-family: serif;
+	letter-spacing: 3px;
+	color: #8F8F8C;
+	
 }
 .productList > section {
 	display: grid;
