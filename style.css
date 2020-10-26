@@ -48,6 +48,7 @@ h3 {
 	flex-direction: column;
 	background: #ffffff;
 	position: relative;
+	width: 300px;
 }
 
 .productImage {
@@ -57,13 +58,19 @@ h3 {
 	height: auto;
 	height: auto;
 	margin: 0 auto;
-
-
 }
+
+.productList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .buttonDiv {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	
 	
+}
+.productTemplate {
 }

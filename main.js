@@ -15,10 +15,8 @@ function showBike(bike) {
 
 	const copy = template.cloneNode(true);
 	copy.querySelector("h3").textContent = bike.title.rendered;
-
-	let price = document.createElement("p");
-	price.innerHTML = "$" + bike.price;
-	copy.querySelector(".productBody .price").appendChild(price);
+	
+	copy.querySelector(".productBody .price span").value = "$" + bike.price;
 
 	copy.querySelector(".productImage").src = bike.image.guid;
 
